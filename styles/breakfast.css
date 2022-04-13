@@ -1,0 +1,13 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+#container {
+  /* margin-top: 800px; */
+  font-size: 20px;
+}
+

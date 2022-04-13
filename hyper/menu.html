@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABC Hostel</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="../styles/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../images/hostel.JPG" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Our Menu</a></li>
+            <li class="item"><a href="#contact">Complain Us</a></li>
+           
+            <li class="item"><a href="../hyper/scanning.html">QR Code</a></li>
+            <li class="item"><a href="login.php">Sign in</a></li>
+       
+            <li class="item"><a href="register.php">Sign up</a></li>
+       
+           
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to ABC Hostel</h1>
+        <p>Mates Welcome to our Hostel Food Mess Page </p>
+        <p>Please look downwards if you want to eat today. </p>
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Menu</h1>
+        <div id="services">
+            <div class="box">
+                <img src="../images/img/1.png" alt="">
+                <a href="../hyper/breakfast.html"><h2 class="h-secondary center">Breakfast</h2></a>
+                <h3 class="h-tertiary center">(07:30 - 09:30)</h2>
+                <p class="center">Breakfast is often called 'the most important meal of the day', and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health.</p>
+            </div>
+            <div class="box">
+                <img src="../images/img/2.png" alt="">
+                <a href="../hyper/lunch.html"><h2 class="h-secondary center">Lunch</h2></a>
+                <h3 class="h-tertiary center">(12:30 - 14:30)</h2>
+                <p class="center">A light meal usually eaten around midday, notably when not as main meal of the day. Eating lunch raises your blood sugar level in the middle of the day, which gives you the energy you need for the rest of the day. It also enables you to focus and concentrate on the rest of the afternoon.</p>
+            </div>
+            <div class="box">
+                <img src="../images/img/3.png" alt="">
+                <a href="../hyper/dinner.html"><h2 class="h-secondary center">Dinner</h2></a>
+                <h3 class="h-tertiary center">(19:30 - 21:30)</h2>
+                <p class="center">Eating a healthy and light dinner will help your body maintain its levels and functions. This will also clear your bowels. Also, dinner is important because after a long day full of activities and exertion, your body needs to fuel up. It is unhealthy if you skip your dinner or consume way too much for dinner.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h1 class="h-primary center">Complain Us Regarding Food</h1>
+        <div id="contact-box">
+            <form action="https://formspree.io/f/mbjwynak" method="Post">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Room Number: </label>
+                    <input type="text" name="name" id="email" placeholder="Enter your Room No.">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message/Complain: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div  class="form-group">
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset Now">
+      
+                </div>
+                         
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.ABChostel.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
